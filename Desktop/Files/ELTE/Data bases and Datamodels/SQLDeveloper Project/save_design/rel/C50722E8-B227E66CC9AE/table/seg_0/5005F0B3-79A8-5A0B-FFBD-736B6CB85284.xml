@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5005F0B3-79A8-5A0B-FFBD-736B6CB85284" schemaObject="C62D0516-458D-785E-A7D4-3525FAA41DF5" name="ADMIN_PARTITIONED">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>ADMIN_PARTITIONED</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADM_AT" id="9AAB8995-96AA-CD6F-4945-77D0ADFC2C1E">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>ADMIN_PARTITIONED</sourceObjSchema>
+<sourceObjName>ADM_AT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01F0D400-F18C-42DF-85C6-EC457366C5F9" referredColumn="888D4478-3E29-36E6-49EA-2648D9C4FAA7"/>
+</associations>
+</Column>
+<Column name="ADM_TYPE" id="2B8EFC33-047E-DE85-B6AD-5570F64CB28A">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>ADMIN_PARTITIONED</sourceObjSchema>
+<sourceObjName>ADM_TYPE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADM_DIPLOMA" id="079D0307-163F-36DA-A052-3CA089864FA6">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>ADMIN_PARTITIONED</sourceObjSchema>
+<sourceObjName>ADM_DIPLOMA</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5822C101-27D9-BFB1-CFB3-99169887716A" schemaObject="C62D0516-458D-785E-A7D4-3525FAA41DF5" name="ADMIN_PARTITIONED_PK">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>SYS_C00304819</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:18 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AAB8995-96AA-CD6F-4945-77D0ADFC2C1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8CDFEC7-45EE-C778-985A-792FAF7F791B" name="ADM_FK2">
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:19 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AAB8995-96AA-CD6F-4945-77D0ADFC2C1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E2B2B013-36DF-FF08-D013-8E6012156933" containerWithKeyObject="8DA42920-1A2A-EBE8-C060-8C88AED54EA4" localFKIndex="F70F954B-022E-AE50-A62A-29BECAFCC40E" name="MNG_BR_CODE_FK">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>MNG_BR_CODE_FK</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:19 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<referredTableLongName>BHVGC7.BRANCH</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>71A61BCA-5236-2312-30AF-3DD3068A47B9</referredTableID>
+<keyObject>1658D1C3-1621-8B1F-5805-96FB01127DC5</keyObject>
+<referredKeyID>1658D1C3-1621-8B1F-5805-96FB01127DC5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>BR_CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

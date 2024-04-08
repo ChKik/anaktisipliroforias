@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="574A480E-AFB7-760A-FD76-1D4CFABF2651" schemaObject="C62D0516-458D-785E-A7D4-3525FAA41DF5" name="LANGUAGES">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>LANGUAGES</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LNG_GUI_AT" id="B43665FD-E2E3-3D92-BDA8-6CDDB629881A">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>LANGUAGES</sourceObjSchema>
+<sourceObjName>LNG_GUI_AT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="126B383B-235C-A616-18FE-013173CD4F90" referredColumn="175F5C22-E0D0-8155-93F7-30D4DA76A0CC"/>
+</associations>
+</Column>
+<Column name="LNG_LANGUAGE" id="59900A30-932A-A945-2D4A-B6D7422C3196">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>LANGUAGES</sourceObjSchema>
+<sourceObjName>LNG_LANGUAGE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="494D0512-F9C4-5050-49E2-79363E3154A6" schemaObject="C62D0516-458D-785E-A7D4-3525FAA41DF5" name="LANGUAGES_PK">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>SYS_C00304498</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:18 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B43665FD-E2E3-3D92-BDA8-6CDDB629881A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86D2A235-FE73-537F-5AD1-FB6B58880509" name="LNG_GUI_AT_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:19 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B43665FD-E2E3-3D92-BDA8-6CDDB629881A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

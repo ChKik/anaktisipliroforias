@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50FE4655-04B5-50EC-8FF7-0A86CEB37191" schemaObject="C62D0516-458D-785E-A7D4-3525FAA41DF5" name="DRIVER">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>DRIVER</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DRV_AT" id="DC76654D-80A4-675E-90A6-4477C6E4DC58">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>DRIVER</sourceObjSchema>
+<sourceObjName>DRV_AT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRV_LICENSE" id="1D7F6BA8-7AE8-4775-2C3D-EDC87E1D6A32">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>DRIVER</sourceObjSchema>
+<sourceObjName>DRV_LICENSE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<constraintName>SYS_C00304491</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;A&apos;" description=""/>
+<valueDef value="&apos;B&apos;" description=""/>
+<valueDef value="&apos;C&apos;" description=""/>
+<valueDef value="&apos;D&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRV_ROUTE" id="21F0718C-5076-BA39-8577-1BEF57B15D79">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>DRIVER</sourceObjSchema>
+<sourceObjName>DRV_ROUTE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<constraintName>SYS_C00304492</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;ABROAD&apos;" description=""/>
+<valueDef value="&apos;LOCAL&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRV_EXPERIENCE" id="C4E0C545-46FC-D133-6F22-8FCD1DEA8D0B">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>DRIVER</sourceObjSchema>
+<sourceObjName>DRV_EXPERIENCE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BA15E4B-D0C7-4726-D8B1-A8712A79ED21" schemaObject="C62D0516-458D-785E-A7D4-3525FAA41DF5" name="DRIVER_PK">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>SYS_C00304493</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:18 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC76654D-80A4-675E-90A6-4477C6E4DC58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

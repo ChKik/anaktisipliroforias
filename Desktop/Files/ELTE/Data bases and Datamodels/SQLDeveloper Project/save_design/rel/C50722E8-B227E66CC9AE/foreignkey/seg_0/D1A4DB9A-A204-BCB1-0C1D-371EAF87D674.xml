@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1A4DB9A-A204-BCB1-0C1D-371EAF87D674" containerWithKeyObject="50848A96-4C73-166C-9DA8-D1DD40BA1A20" localFKIndex="289FD7E0-D610-D8D9-3B84-ECC76A06DB14" name="GUI_FK1">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>GUI_FK1</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:19 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<referredTableLongName>BHVGC7.WORKER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7832E5BD-CA85-E96D-2A51-23185D34236E</referredTableID>
+<keyObject>97B2CAA5-4B15-8B28-05F6-5953A3215F6F</keyObject>
+<referredKeyID>97B2CAA5-4B15-8B28-05F6-5953A3215F6F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>WRK_AT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

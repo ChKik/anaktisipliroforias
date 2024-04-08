@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="NO_ADMIN_DEL" directorySegmentName="seg_0" id="584066CC-3BC0-2510-1D86-DC0921F89D49">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>NO_ADMIN_DEL</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:19 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<actions>DELETE</actions>
+<body><![CDATA[begin
+    dbms_output.put_line('User is an admin and cannot be deleted');
+end;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>EA8B5E67-4602-94FF-4031-810E22B48376</owner>
+<table>C5C7E7E7-D587-79F8-BF5B-392308A9471F</table>
+</TriggerOraclev10g>

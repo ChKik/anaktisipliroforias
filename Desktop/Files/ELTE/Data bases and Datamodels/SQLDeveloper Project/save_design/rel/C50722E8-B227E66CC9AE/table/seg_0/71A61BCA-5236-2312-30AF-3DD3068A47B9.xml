@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71A61BCA-5236-2312-30AF-3DD3068A47B9" schemaObject="C62D0516-458D-785E-A7D4-3525FAA41DF5" name="BRANCH">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>BRANCH</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BR_CODE" id="2320CEDC-6688-18DE-8DC7-84997E875BAD">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>BR_CODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BR_STREET" id="D3ECC94B-B91F-82BE-83C1-20A4922A88AD">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>BR_STREET</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BR_NUM" id="443DBC22-8A75-4109-DD1D-E6CA7DECB4EA">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>BR_NUM</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BR_CITY" id="D50E0606-C352-8D8B-7BB4-9371072B85C2">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>BR_CITY</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1658D1C3-1621-8B1F-5805-96FB01127DC5" schemaObject="C62D0516-458D-785E-A7D4-3525FAA41DF5" name="BRANCH_PK">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>SYS_C00304167</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:18 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2320CEDC-6688-18DE-8DC7-84997E875BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

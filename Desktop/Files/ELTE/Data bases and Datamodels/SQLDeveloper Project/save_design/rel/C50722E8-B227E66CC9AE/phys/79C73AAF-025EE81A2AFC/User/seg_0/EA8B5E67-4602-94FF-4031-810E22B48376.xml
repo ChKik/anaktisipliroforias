@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="BHVGC7" directorySegmentName="seg_0" id="EA8B5E67-4602-94FF-4031-810E22B48376">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjName>BHVGC7</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:16 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<schemaObject>C62D0516-458D-785E-A7D4-3525FAA41DF5</schemaObject>
+</UserOraclev10g>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DA42920-1A2A-EBE8-C060-8C88AED54EA4" schemaObject="C62D0516-458D-785E-A7D4-3525FAA41DF5" name="MANAGES">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>MANAGES</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MNG_ADM_AT" id="ABBDCCF5-9797-BFC9-A4A9-F775A56CFB0E">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>MANAGES</sourceObjSchema>
+<sourceObjName>MNG_ADM_AT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F14B337C-F50E-BFE1-3792-1CBD3F23002D" referredColumn="EAE52E1C-3F53-237F-8DF6-4D5F4C46BD27"/>
+</associations>
+</Column>
+<Column name="MNG_BR_CODE" id="061C11B2-FDFA-1197-8758-1B111A18F43C">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>MANAGES</sourceObjSchema>
+<sourceObjName>MNG_BR_CODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:17 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2B2B013-36DF-FF08-D013-8E6012156933" referredColumn="2320CEDC-6688-18DE-8DC7-84997E875BAD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1B7EBC2-904C-4F6A-AF91-CC2C423B2578" schemaObject="C62D0516-458D-785E-A7D4-3525FAA41DF5" name="MANAGES_PK">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>SYS_C00304504</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:18 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABBDCCF5-9797-BFC9-A4A9-F775A56CFB0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="631906A6-B0D3-616A-066E-8C8BE0974924" schemaObject="C62D0516-458D-785E-A7D4-3525FAA41DF5" name="IDX_MNG_BR_CODE">
+<sourceConnName>ARAMIS</sourceConnName>
+<sourceObjSchema>BHVGC7</sourceObjSchema>
+<sourceObjName>IDX_MNG_BR_CODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:18 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="061C11B2-FDFA-1197-8758-1B111A18F43C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B80F6076-15E9-C167-B7B7-A11D4AA6247E" name="MNG_ADM_AT_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:19 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABBDCCF5-9797-BFC9-A4A9-F775A56CFB0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F70F954B-022E-AE50-A62A-29BECAFCC40E" name="MNG_BR_CODE_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 15:37:19 UTC</createdTime>
+<ownerDesignName>save_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="061C11B2-FDFA-1197-8758-1B111A18F43C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
