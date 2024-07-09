@@ -1,0 +1,7 @@
+https://courses.cs.washington.edu/courses/cse373/17au/project3/project3-2.html
+
+https://www.geeksforgeeks.org/understanding-tf-idf-term-frequency-inverse-document-frequency/
+
+https://janav.wordpress.com/2013/10/27/tf-idf-and-cosine-similarity/
+
+https://stackoverflow.com/questions/37106194/how-do-i-calculate-tf-idf-of-a-query
