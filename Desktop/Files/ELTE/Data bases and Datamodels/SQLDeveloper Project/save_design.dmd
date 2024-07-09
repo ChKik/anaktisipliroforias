@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="save_design" id="CDFDD5B2-3A64-2FFC-D057-FDC14C86B92A" version="3.5">
-<createdBy>user</createdBy>
-<createdTime>2024-04-08 15:35:25 UTC</createdTime>
-<ownerDesignName>save_design</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>CDFDD5B2-3A64-2FFC-D057-FDC14C86B92A</designId>
-</OSDM_Design>
