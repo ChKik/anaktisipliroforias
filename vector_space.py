@@ -286,9 +286,11 @@ def VSM():
     # Sort the results by cosine similarity in descending order
     cosine_similarities_sorted = sorted(cosine_similarities, key=lambda x: x[1], reverse=True) #the lamba function will sort by the second argument for each tuple which is the cosine value
 
-    # Get the top 10 results and Output the top 10 results
-    top_ten_results = cosine_similarities_sorted[:10]
+     # Get the top 10 results and Output the top 10 results,change the variable if you want more.
+    top_results_num=10
+    top__results = cosine_similarities_sorted[:top_results_num]
 
+    print(query)
     for doc_id, similarity in top_ten_results:
         if doc_id == LastDoc:
             continue
